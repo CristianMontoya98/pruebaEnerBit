@@ -1,0 +1,39 @@
+@import './../scss/abstracts/variables';
+
+.overlay{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .contenedorModal{
+    width: 500px;
+    min-height: 100px;
+    background: $lighterBlue;
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    .encabezado{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid $darkBlue;
+      button{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: none;
+        color: $darkBlue;
+        font-size: 25px;
+        font-weight: 700;
+        border: none;
+      }
+    }
+  }
+}

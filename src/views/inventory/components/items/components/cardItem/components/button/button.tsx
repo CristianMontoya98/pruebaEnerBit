@@ -2,9 +2,9 @@ import { DeleteIcon } from "../../../../../../../../assets/icons/DeleteIcon";
 import { EditIcon } from "../../../../../../../../assets/icons/editIcon";
 import styles from './button.module.scss';
 function Button(props:any) {
-  const {icon, style} = props;
+  const {icon, style, action} = props;
   return ( 
-    <button className={`${styles.button} ${style === 'delete' ? styles.delete : styles.edit}`}>
+    <button onClick={action} className={`${styles.button} ${style === 'delete' ? styles.delete : styles.edit}`}>
       {icon === 'delete'?<DeleteIcon/>:<EditIcon/>}
     </button>
    );
