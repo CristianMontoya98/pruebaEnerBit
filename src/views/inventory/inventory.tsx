@@ -1,8 +1,13 @@
+import { Items } from "./components/items/items";
+import { NavBar } from "./components/nav/nav";
+
 function Inventory() {
+  
   return ( 
-  <>
-    <h1>Welcome!</h1>
-  </>
+  <div>
+    <NavBar/>
+    <Items/>
+  </div>
   );
 }
 

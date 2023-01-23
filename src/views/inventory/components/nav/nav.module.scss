@@ -1,0 +1,21 @@
+@import './../../../../scss/abstracts/variables';
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: $lightBlue;
+  height: 57px;
+  width: 100vw;
+  position: fixed;
+  h2{
+    color: $darkBlue;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .navButtons{
+    display: flex;
+  }
+}

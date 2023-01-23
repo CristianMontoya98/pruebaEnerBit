@@ -1,0 +1,16 @@
+@import './../../../../../../../../scss/abstracts/variables';
+
+.button{
+  height: 38px;
+  width: 38px;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.delete{
+  border: solid 2px $red;
+}
+.edit{
+  border: solid 2px $yellow;
+}
