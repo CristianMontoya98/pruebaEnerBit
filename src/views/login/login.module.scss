@@ -3,14 +3,23 @@
 .login{
   height: 100vh;
   background: $darkBlue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
   h1{
     color: $lightBlue;
     font-size: 30px;
     font-weight: 600;
   }
-  .login_line{
-    background: $lighterBlue;
-    height: 2px;
-    width: 64px;
+  .login__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .login__textLine{
+      background: $lighterBlue;
+      height: 2px;
+      width: 64px;
+    }
   }
 }
